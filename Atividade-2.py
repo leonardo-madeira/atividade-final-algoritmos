@@ -59,7 +59,7 @@ alocamento_indisponivel = []
 movimentos = int(input("Insira quantos movimentos serão realizados:"))
 
 while movimentos:
-    acao = input(f"Insira o {movimentos}° movimento: ").lower().split()
+    acao = input(f"Insira o movimento: ").lower().split()
 
     if acao[0] == 'remover':
         if len(acao[1:]) == 3:
